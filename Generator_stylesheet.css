@@ -1,0 +1,20 @@
+* {box-sizing: border-box;padding: 0; margin: 0;font-family: "Poppins", sans-serif;text-decoration: none;}
+* {cursor: url(Roblox_pointer.png), default;}
+.grid_container{
+    display: grid;
+    background-image: url("Stars.jpg");
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.main {
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: rgba(255, 255, 255, 0.664);
+}
